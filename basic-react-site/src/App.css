@@ -1,0 +1,116 @@
+
+body{
+  width: 100vh;
+  background-color: #1A1B21;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  color: white;
+  /* width: 600px; */
+  justify-content: center;
+}
+
+.main-content{
+  display: flex;
+  position: relative;
+}
+
+.header-img{
+  margin: 20px 20px;
+  height: 500px;
+  width: 100%;
+}
+
+.header-email,
+.header-linkedIn {
+  padding: 10px 20px;
+}
+
+.header-email > i,
+.header-linkedIn > i{
+  margin-right: 5px;
+}
+
+.header-btn{
+  width: 400px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  justify-content: space-evenly;
+
+}
+
+.header-btn > button {
+ border-radius: 5px;
+ border-color: transparent;
+}
+
+.header-email{
+  background-color: #D1D5DB;
+}
+
+.header-linkedIn{
+  background-color: #5093E2;
+}
+
+.nav-footer {
+  display: flex;
+  width: 400px;
+  position: relative;
+  margin: 20px 0px;
+  justify-content:space-evenly;
+}
+
+
+.nav-footer > button > i{
+  padding: 10px;
+}
+
+.nav-footer >  i {
+  height: 50px;
+  width: 50px;
+}
+
+
+.main{
+  width: 500px;
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.main-about > h2{
+  text-align: left;
+}
+
+.main-about > p{
+  text-align: left;
+}
+
+.main-interests > h2{
+  text-align: left;
+}
+
+.main-interests > ul{
+  display: flex;
+  justify-content:left
+}
+
+.main-interests > ul > li {
+  margin: 0px 10px;
+  list-style-type: none;
+}
+
+.main-interests > p{
+  text-align: left;
+}
+
+.nav-footer > button{
+background-color: #D1D5DB;
+}
+
+.header-name > p {
+  color: #F3BF99
+}

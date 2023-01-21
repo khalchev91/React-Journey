@@ -1,0 +1,32 @@
+export default [
+    {
+        key:1,
+        src: "https://source.unsplash.com/WLxQvbMyfas",
+        country: "Japan",
+        url: "https://goo.gl/maps/CBgADR11RoC73Q4G7",
+        locationName: "Mount Fuji",
+        startDate: "2021-01-12",
+        endDate: "2021-01-24",
+        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+    },
+    {
+        key:2,
+        src: "https://source.unsplash.com/JmuyB_LibRo",
+        country: "Australia",
+        url: "https://goo.gl/maps/tpStxy2VPEhXQyFRA",
+        locationName: "Sydney Opera House",
+        startDate: "2021-05-27",
+        endDate: "2021-06-08",
+        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
+    },
+    {
+        key:3,
+        src: "https://source.unsplash.com/3PeSjpLVtLg",
+        country: "Norway",
+        url: "https://goo.gl/maps/MsvYL5cWpo79gU6n6",
+        locationName: "Geirangerfjord",
+        startDate: "2021-10-01",
+        endDate: "2021-11-18",
+        description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
+    },
+]
